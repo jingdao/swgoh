@@ -1,0 +1,90 @@
+List of Farmable Gear,,,,,,,,,,,,,,,,,,,,
+88,Farmable Gear,Nickname,Rarity,Battles,,,,,,,,,,,,,,,,Min Level
+,A/KT Stun Gun (Mk 1),Paintball Gun 1,C,L-2B,L-4A,L-3E,D-2I,L-2A-H,L-4A-H,L-3F-H,L-6H,L-6J,,,,,,,,2
+,A/KT Stun Gun (Mk 4) Salvage,Paintball Gun 4 Salvage,E,L-5C,L-5B-H,L-6C-H,D-6F,D-6C-H,L-6E,,,,,,,,,,,n/a
+,A/KT Stun Gun (Mk 5) Prototype Salvage,Paintball Gun 5 Salvage,E,D-7E,D-7C-H,D-8B,D-8A-H,,,,,,,,,,,,,n/a
+,Arakyd Droid Caller (Mk 1),Salt Shaker 1,C,D-2A-H,L-2A,L-1D-H,L-2C-H,L-2D,D-2D,L-3C-H,L-3D,L-4E-H,L-4J,D-6F,,,,,,2
+,Arakyd Droid Caller (Mk 2),Salt Shaker 2,U,L-2H,L-5F,L-2D-H,L-5C-H,D-3E,D-3C-H,,,,,,,,,,,11
+,Arakyd Droid Caller (Mk 3) Salvage,Salt Shaker 3 Salvage,R,D-2E-H,D-2G,L-4F-H,L-4L,D-5H,D-5B-H,D-7B-H,D-8E,D-7D,D-8C-H,,,,,,,n/a
+,Arakyd Droid Caller (Mk 4) Salvage,Salt Shaker 4 Salvage,E,L-6D-H,D-5F-H,L-6H,D-5K,L-7H,L-7D-H,D-7G,D-7D-H,,,,,,,,,n/a
+,Athakam Medpac (Mk 1) Salvage,Medpack 1 Salvage,R,L-3E-H,L-3F,L-6B-H,L-6C,,,,,,,,,,,,,n/a
+,BAW Armor Mod (Mk 1),Game Controller 1,C,L-1C,L-1D,L-1E,D-2C,L-2D,L-4G,L-1A-H,L-1B-H,L-2B-H,L-1D-H,D-5C,,,,,,2
+,BAW Armor Mod (Mk 2) Prototype,Game Controller 2 Prototype,C,L-2C,L-6E,L-2A-H,D-3C,D-3A-H,,,,,,,,,,,,n/a
+,BAW Armor Mod (Mk 3),Game Controller 3,U,D-1E,D-5A,D-1D-H,D-3C-H,D-6F,D-6C-H,D-7C,,,,,,,,,,11
+,BAW Armor Mod (Mk 4) Salvage,Game Controller 4 Salvage,R,L-3A,L-6F,L-3A-H,L-6C-H,D-2C,D-3F,D-2C-H,D-3E-H,D-5A-H,D-7G,D-7D-H,,,,,,n/a
+,BAW Armor Mod (Mk 5) Salvage,Game Controller 5 Salvage,R,L-4I,L-5A,L-6H,L-4E-H,L-5A-H,L-6D-H,,,,,,,,,,,n/a
+,BAW Armor Mod (Mk 7) Prototype Salvage,Game Controller 7 Salvage,R,L-5I,L-5E-H,D-4F,D-4J,D-4C-H,D-4E-H,L-7B,L-7A-H,,,,,,,,,n/a
+,BioTech Implant (Mk 1),Mini Death Star 1,C,L-1F,L-2G,L-3G,L-4H,L-1C-H,L-2E-H,L-3E-H,L-4D-H,,,,,,,,,2
+,BioTech Implant (Mk 3),Mini Death Star 3,U,D-1C-H,D-4A,D-1D,D-4A-H,D-2D-H,L-3D-H,D-2F,L-3F,L-4F-H,L-4K,L-6G,,,,,,20
+,BioTech Implant (Mk 4) Prototype,Mini Death Star 4 Prototype,U,L-4H,L-6B,L-4D-H,D-2E,D-4E,D-2E-H,D-4C-H,,,,,,,,,,n/a
+,BioTech Implant (Mk 5) Prototype,Mini Death Star 5 Prototype,R,D-1C,D-1C-H,D-5K,D-5F-H,D-7D,,,,,,,,,,,,n/a
+,BioTech Implant (Mk 6) Prototype Salvage,Mini Death Star 6 Salvage,E,L-6G,D-5L,L-6D-H,D-5F-H,,,,,,,,,,,,,n/a
+,BioTech Implant (Mk 7) Prototype Salvage,Mini Death Star 7 Salvage,E,L-7C,L-7B-H,D-7A,D-7A-H,,,,,,,,,,,,,n/a
+,BlasTech Weapon Mod (Mk 1),Trash Can Lid 1,C,L-1C,L-1E,L-2F,L-3B,L-4L,L-1C-H,L-2C-H,L-2E-H,L-3A-H,L-4F-H,D-1D,D-1A-H,D-6G,,,,1
+,BlasTech Weapon Mod (Mk 2),Trash Can Lid 2,C,L-3E,L-4E,L-3D-H,L-4C-H,D-1F,D-2B,D-4C,D-1B-H,D-2C-H,D-3B-H,D-4B-H,D-6E,,,,,10
+,BlasTech Weapon Mod (Mk 3),Trash Can Lid 3,U,L-3C,L-3C-H,L-5D-H,L-5G,L-7H,,,,,,,,,,,,11
+,BlasTech Weapon Mod (Mk 4) Prototype,Trash Can Lid 4 Prototype,U,L-4E,L-4C-H,D-2H,D-5J,D-2E-H,D-5E-H,D-7G,,,,,,,,,,n/a
+,BlasTech Weapon Mod (Mk 5) Prototype,Trash Can Lid 5 Prototype,U,D-2B-H,D-2B,D-5B-H,D-5C,L-4E-H,L-4J,D-7A,,,,,,,,,,n/a
+,BlasTech Weapon Mod (Mk 6) Prototype,Trash Can Lid 6 Prototype,U,L-5D,L-6A,L-5B-H,D-5E,D-5C-H,,,,,,,,,,,,n/a
+,BlasTech Weapon Mod (Mk 7) Prototype Salvage,Trash Can Lid 7 Salvage,R,D-4C-H,D-5C,D-4E,D-5B-H,D-7F,D-7C-H,,,,,,,,,,,n/a
+,BlasTech Weapon Mod (Mk 8) Prototype Salvage,Trash Can Lid 8 Salvage,E,L-5H,L-5D-H,L-7F,L-7C-H,,,,,,,,,,,,,n/a
+,Carbanti Sensor Array (Mk 1) Prototype Salvage,Wifi Router 1 Salvage,R,L-5E,L-6D,L-5A-H,L-5C-H,L-6B-H,D-3D,D-4I,D-3D-H,D-4A-H,D-4E-H,D-5D-H,D-5E-H,D-6A,D-6A-H,,,n/a
+,Carbanti Sensor Array (Mk 3) Salvage,Wifi Router 3 Salvage,E,D-6G,L-8F,L-7G,L-7D-H,D-6D-H,L-8C-H,,,,,,,,,,,n/a
+,Carbanti Sensor Array (Mk 4) Prototype Salvage,Wifi Router 4 Salvage,E,D-7C,D-7B-H,,,,,,,,,,,,,,,n/a
+,CEC Fusion Furnace (Mk 1),Spaghetti Sandwich 1,C,L-1D,D-4G,L-1B-H,D-4D-H,L-6D,,,,,,,,,,,,2
+,CEC Fusion Furnace (Mk 2),Spaghetti Sandwich 2,U,D-1A,D-2A,D-3F,D-1A-H,D-2A-H,D-3D-H,D-5H,D-5D-H,,,,,,,,,10
+,CEC Fusion Furnace (Mk 4) Prototype Salvage,Spaghetti Sandwich 4 Salvage,E,D-5D,D-5B-H,D-7D,D-7B-H,,,,,,,,,,,,,n/a
+,Chedak Comlink (Mk 1) Salvage,TV Remote 1 Salvage,R,D-2I,D-2F-H,D-6I,D-6E-H,D-7H,D-7D-H,,,,,,,,,,,n/a
+,Chedak Comlink (Mk 2) Prototype,TV Remote 2 Prototype,U,L-4B,L-4A-H,D-2D,D-5L,D-2A-H,D-5F-H,L-7E,,,,,,,,,,n/a
+,Chedak Comlink (Mk 3) Prototype Salvage,TV Remote 3 Salvage,E,D-6J,D-6E-H,,,,,,,,,,,,,,,n/a
+,Chedak Comlink (Mk 4) Prototype Salvage,TV Remote 4 Salvage,E,D-7A-H,D-7B,,,,,,,,,,,,,,,n/a
+,Chiewab Hypo Syringe (Mk 1) Prototype,Medic Gun 1 Prototype,C,L-2B,L-4G,L-2D-H,L-4D-H,D-3H,D-3F-H,D-6J,,,,,,,,,,n/a
+,Chiewab Hypo Syringe (Mk 2),Medic Gun 2,U,D-4B,L-2I,L-4K,D-4A-H,L-2F-H,D-2F-H,L-4F-H,D-6D-H,D-6H,L-7C,,,,,,,20
+,Chiewab Hypo Syringe (Mk 3) Prototype Salvage,Medic Gun 3 Salvage,R,D-3I,D-5B,D-3F-H,D-5A-H,L-7G,L-7D-H,D-7E,D-7C-H,,,,,,,,,n/a
+,Chiewab Hypo Syringe (Mk 4) Prototype Salvage,Medic Gun 4 Salvage,R,L-6B,L-6A-H,D-3E,D-3D-H,L-7A,L-7A-H,,,,,,,,,,,n/a
+,Chiewab Hypo Syringe (Mk 5) Prototype Salvage,Medic Gun 5 Salvage,E,L-6F,L-6C-H,D-7H,D-7D-H,,,,,,,,,,,,,n/a
+,Chiewab Hypo Syringe (Mk 6) Salvage,Medic Gun 6 Salvage,E,L-7C-H,L-8E,L-8C-H,L-7E,,,,,,,,,,,,,n/a
+,Czerka Stun Cuffs (Mk 1),Handcuffs 1,U,L-2G,L-2E-H,D-3A,D-5D,D-3A-H,D-7H,,,,,,,,,,,10
+,Czerka Stun Cuffs (Mk 3) Salvage,Handcuffs 3 Salvage,E,L-7D,L-7B-H,,,,,,,,,,,,,,,n/a
+,Fabritech Data Pad (Mk 1),Clipboard 1,C,L-1D,L-2F,L-4C,L-4F,L-1B-H,L-2C-H,L-4B-H,L-4C-H,D-4J,D-4E-H,D-6C,,,,,,2
+,Fabritech Data Pad (Mk 2),Clipboard 2,U,L-3H,L-5E,L-6F,L-3B-H,L-5C-H,,,,,,,,,,,,10
+,Fabritech Data Pad (Mk 4) Prototype,Clipboard 4 Prototype,R,L-4D,L-4B-H,D-2F,D-3D,D-5B,D-2D-H,D-5A-H,L-7F,,,,,,,,,n/a
+,Fabritech Data Pad (Mk 5),Clipboard 5,U,L-6C,L-5F-H,L-5K,L-8A,L-7B,,,,,,,,,,,,15
+,Fabritech Data Pad (Mk 6) Salvage,Clipboard 6 Salvage,R,L-6A,L-6A-H,D-3B,D-4D,D-3B-H,D-4B-H,D-6E,D-6C-H,,,,,,,,,n/a
+,Loronar Power Cell (Mk 1),Tree Branch 1,C,L-1D,L-1E,L-2C,L-3H,D-4L,L-2A-H,L-3B-H,D-4F-H,D-6B,,,,,,,,2
+,Loronar Power Cell (Mk 3),Tree Branch 3,U,D-1B,D-3I,D-1B-H,D-3F-H,D-6B,D-6A-H,D-7B,,,,,,,,,,10
+,Loronar Power Cell (Mk 4) Prototype,Tree Branch 4 Prototype,U,D-2C,D-5F,D-2C-H,D-6J,D-6E-H,,,,,,,,,,,,n/a
+,Loronar Power Cell (Mk 5) Salvage,Tree Branch 5 Salvage,R,D-4B,D-2E,L-4F,D-2D-H,L-4C-H,L-5D-H,L-5G,D-5C-H,L-7H,L-7D-H,,,,,,,n/a
+,Loronar Power Cell (Mk 6) Salvage,Tree Branch 6 Salvage,R,D-2A,D-2B-H,D-6G,D-6D-H,,,,,,,,,,,,,n/a
+,Merr-Sonn Shield Generator (Mk 1),Boom box 1,C,L-1F,L-3G,D-4H,L-1C-H,D-4D-H,L-3F-H,D-6A,D-6H,,,,,,,,,8
+,Merr-Sonn Shield Generator (Mk 2),Boom box 2,U,D-2H,D-4I,D-2F-H,D-4E-H,D-7F,,,,,,,,,,,,27
+,Merr-Sonn Thermal Detonator (Mk 3) Prototype Salvage,Grenade 3 Salvage,R,D-3A,D-4H,D-5E,D-3A-H,D-4D-H,D-5C-H,D-6H,L-7F,L-7C-H,D-6D-H,,,,,,,n/a
+,Merr-Sonn Thermal Detonator (Mk 4) Prototype Salvage,Grenade 4 Salvage,R,L-5J,L-6J,L-5E-H,L-6E-H,D-4K,D-5J,D-4F-H,D-6B-H,,,,,,,,,n/a
+,Merr-Sonn Thermal Detonator (Mk 5) Prototype Salvage,Grenade 5 Salvage,E,D-7F,D-7C-H,,,,,,,,,,,,,,,n/a
+,Neuro-Saav Electrobinoculars (Mk 1),Binoculars 1,C,L-1C,L-1E,L-2A,L-2H,L-4I,L-1D-H,L-2F-H,L-4E-H,D-4K,D-2B-H,D-4F-H,,,,,,2
+,Neuro-Saav Electrobinoculars (Mk 2) Prototype,Binoculars 2 Prototype,C,L-4B,D-4D,L-2I,L-4A-H,D-4B-H,L-2F-H,D-6I,,,,,,,,,,n/a
+,Neuro-Saav Electrobinoculars (Mk 3),Binoculars 3,U,L-5A-H,L-5B,L-3E-H,L-5D-H,L-3G,L-5H,,,,,,,,,,,13
+,Neuro-Saav Electrobinoculars (Mk 5) Salvage,Binoculars 5 Salvage,R,L-4G,L-5B,L-6I,L-4D-H,L-5A-H,L-6E-H,,,,,,,,,,,n/a
+,Neuro-Saav Electrobinoculars (Mk 6) Prototype Salvage,Binoculars 6 Salvage,R,L-5D,L-6G,L-5B-H,L-6D-H,D-6C,D-6B-H,,,,,,,,,,,n/a
+,Nubian Design Tech (Mk 1) Prototype,Frisbee 1,U,L-3D,L-5J,L-3D-H,L-5E-H,D-1E,D-1D-H,,,,,,,,,,,n/a
+,Nubian Design Tech (Mk 5) Prototype Salvage,Frisbee 5 Salvage,E,L-6C,L-6B-H,D-5F,D-5C-H,,,,,,,,,,,,,n/a
+,Nubian Security Scanner (Mk 1),Crates 1,C,L-1C,L-3I,L-1A-H,L-3F-H,D-1B,D-5G,D-1A-H,,,,,,,,,,2
+,Nubian Security Scanner (Mk 2) Prototype,Crates 2 Prototype,C,L-2E,L-4D,L-2B-H,L-4B-H,D-2G,D-2F-H,D-6D,,,,,,,,,,n/a
+,Nubian Security Scanner (Mk 4) Prototype Salvage,Crates 4 Salvage,R,D-3C,D-4G,D-3C-H,D-4D-H,L-7D,L-7B-H,,,,,,,,,,,n/a
+,Nubian Security Scanner (Mk 5) Prototype Salvage,Crates 5 Salvage,E,D-5A,D-5A-H,D-6A,D-6A-H,D-6E-H,,,,,,,,,,,,n/a
+,Nubian Security Scanner (Mk 6) Prototype Salvage,Crates 6 Salvage,E,L-6A-H,L-6B,L-8B-H,L-8C,D-6I,,,,,,,,,,,,n/a
+,Sienar Holo Projector (Mk 1),Ninja Star 1,U,L-3B,L-5A,L-5I,L-3B-H,L-5E-H,,,,,,,,,,,,12
+,Sienar Holo Projector (Mk 2) Prototype Salvage,Ninja Star 2 Salvage,R,L-4A,L-6E,L-4A-H,L-6C-H,D-3H,D-3F-H,D-7A,D-7A-H,,,,,,,,,n/a
+,Sienar Holo Projector (Mk 3) Salvage,Ninja Star 3 Salvage,E,L-6A,L-6A-H,L-7A,L-7A-H,,,,,,,,,,,,,n/a
+,SoroSuub Keypad (Mk 1),Laptop 1,U,D-1C-H,D-1C,L-2B-H,L-2E,D-5I,L-7D,,,,,,,,,,,10
+,SoroSuub Keypad (Mk 2) Prototype,Laptop 2 Prototype,U,D-1D-H,D-3B-H,D-3B,D-1F,D-6D,D-7E,,,,,,,,,,,n/a
+,SoroSuub Keypad (Mk 4) Salvage,Laptop 4 Salvage,E,L-5F,L-5C-H,L-6E-H,L-6J,D-6C,L-8D-H,D-6B-H,L-8H,,,,,,,,,n/a
+,SoroSuub Keypad (Mk 5) Salvage,Laptop 5 Salvage,E,L-5K,L-5F-H,L-6E-H,L-6I,L-7B,L-7A-H,,,,,,,,,,,n/a
+,TaggeCo Holo Lens (Mk 1),Microchip 1,C,L-1C,L-1F,L-3C,L-5L,L-6I,L-1A-H,L-2D-H,L-3C-H,L-5F-H,D-4F,D-4C-H,,,,,,2
+,TaggeCo Holo Lens (Mk 2),Microchip 2,U,D-1A,D-1B-H,L-3A,L-3A-H,D-3E-H,D-3G,D-5G,D-5D-H,D-5E-H,L-7G,,,,,,,10
+,TaggeCo Holo Lens (Mk 3) Prototype,Microchip 3 Prototype,U,L-3I,L-5C,L-3F-H,L-5B-H,L-7A,,,,,,,,,,,,n/a
+,TaggeCo Holo Lens (Mk 4) Salvage,Microchip 4 Salvage,R,L-4C,L-5L,L-4B-H,L-5F-H,L-7C,L-7B-H,,,,,,,,,,,n/a
+,TaggeCo Holo Lens (Mk 5) Prototype Salvage,Microchip 5 Salvage,R,D-3G,D-5G,D-3E-H,D-5D-H,D-8G,D-8D-H,D-7B,D-7A-H,,,,,,,,,n/a
+,TaggeCo Holo Lens (Mk 6) Prototype Salvage,Microchip 6 Salvage,R,D-4C,D-4L,D-4B-H,D-4F-H,D-6B,D-6A-H,L-7E,L-7C-H,,,,,,,,,n/a
+,Zaltin Bacta Gel (Mk 1) Prototype Salvage,Test Tube 1 Salvage,R,D-4A-H,D-4A,D-5I,D-5E-H,D-6E,D-6C-H,D-7C,D-7B-H,,,,,,,,,n/a
+,Zaltin Bacta Gel (Mk 2) Prototype Salvage,Test Tube 2 Salvage,E,L-6D,L-6B-H,D-6D,D-6B-H,,,,,,,,,,,,,n/a

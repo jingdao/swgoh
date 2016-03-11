@@ -1,0 +1,153 @@
+List of Craftable Gear,,,,,,,,,,,,,,,,,,
+151,Craftable Gear,Nickname,Rarity,Credit,Tot Credit,Ingredient 1,,,Ingredient 2,,,Ingredient 3,,,Ingredient 4,,,Min Level
+,A/KT Stun Gun (Mk 2),,U,1500,1500,1,F,Merr-Sonn Shield Generator (Mk 1),1,F,CEC Fusion Furnace (Mk 2),1,F,TaggeCo Holo Lens (Mk 2),,,,18
+,A/KT Stun Gun (Mk 3),,U,1250,1250,1,F,BlasTech Weapon Mod (Mk 3),1,F,Merr-Sonn Shield Generator (Mk 1),,,,,,,17
+,A/KT Stun Gun (Mk 4),,E,6450,6450,20,F,A/KT Stun Gun (Mk 4) Salvage,,,,,,,,,,49
+,A/KT Stun Gun (Mk 5),,E,4200,31050,1,C,A/KT Stun Gun (Mk 5) Prototype,1,F,Sienar Holo Projector (Mk 1),1,C,Carbanti Sensor Array (Mk 3),,,,72
+,A/KT Stun Gun (Mk 5) Prototype,,E,13600,13600,50,F,A/KT Stun Gun (Mk 5) Prototype Salvage,,,,,,,,,,n/a
+,A/KT Stun Gun (Mk 6),,L,,0,,,,,,,,,,,,,85
+,Arakyd Droid Caller (Mk 3),,R,2000,2000,5,F,Arakyd Droid Caller (Mk 3) Salvage,,,,,,,,,,20
+,Arakyd Droid Caller (Mk 4),,E,6500,6500,20,F,Arakyd Droid Caller (Mk 4) Salvage,,,,,,,,,,50
+,Arakyd Droid Caller (Mk 5),,E,4100,30200,2,C,Athakam Medpac (Mk 3),,,,,,,,,,74
+,Arakyd Droid Caller (Mk 6),,E,,0,,,,,,,,,,,,,87
+,Athakam Medpac (Mk 1),,R,2100,2100,5,F,Athakam Medpac (Mk 1) Salvage,,,,,,,,,,22
+,Athakam Medpac (Mk 2),,R,2150,9950,1,C,Fabritech Data Pad (Mk 4),1,C,BioTech Implant (Mk 5),,,,,,,35
+,Athakam Medpac (Mk 3),,E,3550,13050,2,C,Zaltin Bacta Gel (Mk 1),,,,,,,,,,63
+,Athakam Medpac (Mk 4),,E,,0,,,,,,,,,,,,,80
+,Athakam Medpac (Mk 5),,L,,0,,,,,,,,,,,,,82
+,Athakam Medpac (Mk 6),,L,,0,,,,,,,,,,,,,88
+,BAW Armor Mod (Mk 2),,C,1050,1050,1,F,BAW Armor Mod (Mk 2) Prototype,1,F,BioTech Implant (Mk 1),1,F,Neuro-Saav Electrobinoculars (Mk 1),,,,9
+,BAW Armor Mod (Mk 4),,R,2000,2000,5,F,BAW Armor Mod (Mk 4) Salvage,,,,,,,,,,20
+,BAW Armor Mod (Mk 5),,R,2050,2050,5,F,BAW Armor Mod (Mk 5) Salvage,,,,,,,,,,21
+,BAW Armor Mod (Mk 6),,R,2100,6450,1,C,Athakam Medpac (Mk 1),1,C,Fabritech Data Pad (Mk 6),,,,,,,34
+,BAW Armor Mod (Mk 7),,R,2850,5900,1,C,BAW Armor Mod (Mk 7) Prototype,1,F,Czerka Stun Cuffs (Mk 1),1,F,Fabritech Data Pad (Mk 2),,,,41
+,BAW Armor Mod (Mk 7) Prototype,,R,3050,3050,5,F,BAW Armor Mod (Mk 7) Prototype Salvage,,,,,,,,,,n/a
+,BAW Armor Mod (Mk 8),,E,4300,31400,2,C,Neuro-Saav Electrobinoculars (Mk 7),,,,,,,,,,78
+,BAW Armor Mod (Mk 9),,L,,0,,,,,,,,,,,,,84
+,BioTech Implant (Mk 2),,C,1100,1100,1,F,Fabritech Data Pad (Mk 1),1,F,Loronar Power Cell (Mk 1),,,,,,,10
+,BioTech Implant (Mk 4),,U,1350,1350,1,F,BioTech Implant (Mk 4) Prototype,1,F,BAW Armor Mod (Mk 3),,,,,,,19
+,BioTech Implant (Mk 5),,R,1900,3900,1,F,BioTech Implant (Mk 5) Prototype,1,F,SoroSuub Keypad (Mk 1),1,C,Arakyd Droid Caller (Mk 3),,,,26
+,BioTech Implant (Mk 6),,E,3200,12600,1,C,BioTech Implant (Mk 6) Prototype,1,C,Merr-Sonn Shield Generator (Mk 3),1,C,Neuro-Saav Electrobinoculars (Mk 2),,,,52
+,BioTech Implant (Mk 6) Prototype,,E,6600,6600,20,F,BioTech Implant (Mk 6) Prototype Salvage,,,,,,,,,,n/a
+,BioTech Implant (Mk 7),,E,4100,26150,1,C,Loronar Power Cell (Mk 6),1,C,A/KT Stun Gun (Mk 4),1,C,BioTech Implant (Mk 7) Prototype,,,,70
+,BioTech Implant (Mk 7) Prototype,,E,13500,13500,50,F,BioTech Implant (Mk 7) Prototype Salvage,,,,,,,,,,n/a
+,BioTech Implant (Mk 8),,L,,0,,,,,,,,,,,,,82
+,BioTech Implant (Mk 9),,E,,0,,,,,,,,,,,,,86
+,BlasTech Weapon Mod (Mk 4),,U,1600,1600,1,F,BlasTech Weapon Mod (Mk 4) Prototype,1,F,Arakyd Droid Caller (Mk 1),1,F,Nubian Security Scanner (Mk 1),,,,16
+,BlasTech Weapon Mod (Mk 5),,U,1650,3850,1,F,BlasTech Weapon Mod (Mk 5) Prototype,1,C,Neuro-Saav Electrobinoculars (Mk 2),1,C,SoroSuub Keypad (Mk 2),,,,21
+,BlasTech Weapon Mod (Mk 6),,U,2050,2900,1,F,BlasTech Weapon Mod (Mk 6) Prototype,1,F,BAW Armor Mod (Mk 3),1,F,CEC Fusion Furnace (Mk 1),1,C,Loronar Power Cell (Mk 2),25
+,BlasTech Weapon Mod (Mk 7),,R,2500,7000,1,C,BlasTech Weapon Mod (Mk 7) Prototype,1,C,Loronar Power Cell (Mk 5),1,F,BlasTech Weapon Mod (Mk 3),1,F,Arakyd Droid Caller (Mk 1),34
+,BlasTech Weapon Mod (Mk 7) Prototype,,R,2500,2500,5,F,BlasTech Weapon Mod (Mk 7) Prototype Salvage,,,,,,,,,,n/a
+,BlasTech Weapon Mod (Mk 8),,E,3250,20200,1,C,BlasTech Weapon Mod (Mk 8) Prototype,1,C,BioTech Implant (Mk 5),1,C,SoroSuub Keypad (Mk 4),,,,53
+,BlasTech Weapon Mod (Mk 8) Prototype,,E,6650,6650,20,F,BlasTech Weapon Mod (Mk 8) Prototype Salvage,,,,,,,,,,n/a
+,BlasTech Weapon Mod (Mk 9),,E,,0,,,,,,,,,,,,,78
+,BlasTech Weapon Mod (Mk 10),,R,,0,,,,,,,,,,,,,81
+,BlasTech Weapon Mod (Mk 11),,E,,0,,,,,,,,,,,,,81
+,Carbanti Sensor Array (Mk 1),,R,1950,3900,1,C,Carbanti Sensor Array (Mk 1) Prototype,1,F,Merr-Sonn Shield Generator (Mk 1),,,,,,,31
+,Carbanti Sensor Array (Mk 1) Prototype,,R,1950,1950,5,F,Carbanti Sensor Array (Mk 1) Prototype Salvage,,,,,,,,,,n/a
+,Carbanti Sensor Array (Mk 2),,R,2700,6700,2,C,Loronar Power Cell (Mk 5),1,F,Neuro-Saav Electrobinoculars (Mk 3),,,,,,,42
+,Carbanti Sensor Array (Mk 3),,E,13250,13250,50,F,Carbanti Sensor Array (Mk 3) Salvage,,,,,,,,,,65
+,Carbanti Sensor Array (Mk 4),,E,,0,,,,,,,,,,,,,79
+,Carbanti Sensor Array (Mk 4) Prototype,,E,,0,,,,,,,,,,,,,n/a
+,Carbanti Sensor Array (Mk 5),,E,4400,67200,2,C,BAW Armor Mod (Mk 8),,,,,,,,,,80
+,Carbanti Sensor Array (Mk 6),,L,,0,,,,,,,,,,,,,87
+,CEC Fusion Furnace (Mk 3),,U,1500,1500,1,F,Merr-Sonn Shield Generator (Mk 1),1,F,CEC Fusion Furnace (Mk 2),1,F,SoroSuub Keypad (Mk 1),,,,18
+,CEC Fusion Furnace (Mk 4),,E,3150,11200,1,C,CEC Fusion Furnace (Mk 4) Prototype,2,C,Nubian Security Scanner (Mk 3),,,,,,,51
+,CEC Fusion Furnace (Mk 4) Prototype,,E,6550,6550,20,F,CEC Fusion Furnace (Mk 4) Prototype Salvage,,,,,,,,,,n/a
+,CEC Fusion Furnace (Mk 5),,E,4250,23900,1,C,Chiewab Hypo Syringe (Mk 6),1,C,Sienar Holo Projector (Mk 3),1,F,Loronar Power Cell (Mk 3),,,,73
+,CEC Fusion Furnace (Mk 6),,E,,0,,,,,,,,,,,,,83
+,CEC Fusion Furnace (Mk 7),,L,,0,,,,,,,,,,,,,89
+,Chedak Comlink (Mk 1),,R,2150,2150,5,F,Chedak Comlink (Mk 1) Salvage,,,,,,,,,,23
+,Chedak Comlink (Mk 2),,U,1500,1500,1,F,Chedak Comlink (Mk 2) Prototype,1,F,Chiewab Hypo Syringe (Mk 2),1,F,Arakyd Droid Caller (Mk 1),,,,18
+,Chedak Comlink (Mk 3),,E,4000,19850,1,C,Arakyd Droid Caller (Mk 4),2,C,Chedak Comlink (Mk 1),1,C,Chedak Comlink (Mk 3) Prototype,,,,64
+,Chedak Comlink (Mk 3) Prototype,,E,7200,7200,20,F,Chedak Comlink (Mk 3) Prototype Salvage,,,,,,,,,,n/a
+,Chedak Comlink (Mk 4),,E,,0,,,,,,,,,,,,,80
+,Chedak Comlink (Mk 5),,L,,0,,,,,,,,,,,,,85
+,Chiewab Hypo Syringe (Mk 1),,C,1050,1050,1,F,Chiewab Hypo Syringe (Mk 1) Prototype,1,F,Nubian Security Scanner (Mk 1),1,F,Neuro-Saav Electrobinoculars (Mk 1),,,,9
+,Chiewab Hypo Syringe (Mk 3),,R,2100,6200,1,C,Chiewab Hypo Syringe (Mk 3) Prototype,1,C,Loronar Power Cell (Mk 5),1,F,CEC Fusion Furnace (Mk 1),,,,30
+,Chiewab Hypo Syringe (Mk 3) Prototype,,R,2100,2100,5,F,Chiewab Hypo Syringe (Mk 3) Prototype Salvage,,,,,,,,,,n/a
+,Chiewab Hypo Syringe (Mk 4),,R,2750,8100,1,C,Chiewab Hypo Syringe (Mk 4) Prototype,1,F,CEC Fusion Furnace (Mk 2),1,C,Neuro-Saav Electrobinoculars (Mk 5),,,,43
+,Chiewab Hypo Syringe (Mk 4) Prototype,,R,3150,3150,20,F,Chiewab Hypo Syringe (Mk 4) Prototype Salvage,,,,,,,,,,n/a
+,Chiewab Hypo Syringe (Mk 5),,E,3700,25350,1,C,SoroSuub Keypad (Mk 5),1,C,Chiewab Hypo Syringe (Mk 4),1,C,Chiewab Hypo Syringe (Mk 5) Prototype,,,,62
+,Chiewab Hypo Syringe (Mk 5) Prototype,,E,7100,7100,20,F,Chiewab Hypo Syringe (Mk 5) Prototype Salvage,,,,,,,,,,n/a
+,Chiewab Hypo Syringe (Mk 6),,E,13300,13300,50,F,Chiewab Hypo Syringe (Mk 6) Salvage,,,,,,,,,,66
+,Czerka Stun Cuffs (Mk 2),,R,2750,7250,1,C,Merr-Sonn Thermal Detonator (Mk 2),1,C,Sorosuub Keypad (Mk 2),1,C,Athakam Medpac (Mk 1),,,,43
+,Czerka Stun Cuffs (Mk 3),,E,13500,13500,50,F,Czerka Stun Cuffs (Mk 3) Salvage,,,,,,,,,,70
+,Czerka Stun Cuffs (Mk 4),,E,,0,,,,,,,,,,,,,84
+,Fabritech Data Pad (Mk 3),,U,1150,3050,1,C,Nubian Security Scanner (Mk 2),1,C,Loronar Power Cell (Mk 2),,,,,,,15
+,Fabritech Data Pad (Mk 4),,R,1900,3900,1,F,Fabritech Data Pad (Mk 4) Prototype,1,F,TaggeCo Holo Lens (Mk 2),1,C,BAW Armor Mod (Mk 4),,,,26
+,Fabritech Data Pad (Mk 6),,R,2250,2250,5,F,Fabritech Data Pad (Mk 6) Salvage,,,,,,,,,,25
+,Fabritech Data Pad (Mk 7),,R,2450,10150,2,C,BlasTech Weapon Mod (Mk 5),,,,,,,,,,41
+,Fabritech Data Pad (Mk 8),,E,3450,18050,2,C,Sienar Holo Projector (Mk 2),,,,,,,,,,61
+,Fabritech Data Pad (Mk 9),,L,,0,,,,,,,,,,,,,82
+,Loronar Power Cell (Mk 2),,C,850,850,1,F,A/KT Stun Gun (Mk 1),1,F,Arakyd Droid Caller (Mk 1),,,,,,,9
+,Loronar Power Cell (Mk 4),,U,1600,2650,1,F,Loronar Power Cell (Mk 4) Prototype,1,C,Chiewab Hypo Syringe (Mk 1),1,F,Czerka Stun Cuffs (mk 1),,,,20
+,Loronar Power Cell (Mk 5),,R,2000,2000,5,F,Loronar Power Cell (Mk 5) Salvage,,,,,,,,,,20
+,Loronar Power Cell (Mk 6),,R,2100,2100,5,F,Loronar Power Cell (Mk 6) Salvage,,,,,,,,,,22
+,Loronar Power Cell (Mk 7),,R,2650,6300,1,C,Merr-Sonn Thermal Detonator (Mk 2),1,C,Nubian Design Tech (Mk 4),,,,,,,45
+,Loronar Power Cell (Mk 8),,L,,0,,,,,,,,,,,,,85
+,Merr-Sonn Shield Generator (Mk 3),,U,1700,1700,1,F,BioTech Implant (Mk 3),1,F,CEC Fusion Furnace (Mk 1),1,F,Merr-Sonn Shield Generator (Mk 2),,,,18
+,Merr-Sonn Shield Generator (Mk 4),,U,1500,1500,1,F,Merr-Sonn Shield Generator (Mk 1),1,F,CEC Fusion Furnace (Mk 2),1,F,Czerka Stun Cuffs (Mk 1),,,,18
+,Merr-Sonn Shield Generator (Mk 5),,R,2550,8550,1,F,Neuro-Saav Electrobinoculars (Mk 3),1,C,BAW Armor Mod (Mk 4),1,C,Arakyd Droid Caller (Mk 3),1,C,Loronar Power Cell (Mk 5),35
+,Merr-Sonn Shield Generator (Mk 6),,E,4050,16850,2,C,SoroSuub Keypad (Mk 4),1,F,Neuro-Saav Electrobinoculars (Mk 3),1,F,Fabritech Data Pad (Mk 5),,,,65
+,Merr-Sonn Shield Generator (Mk 7),,E,,0,,,,,,,,,,,,,81
+,Merr-Sonn Thermal Detonator (Mk 1),,U,1550,1550,1,F,Fabritech Data Pad (Mk 1),1,F,Sienar Holo Projector (Mk 1),1,F,BioTech Implant (Mk 3),,,,19
+,Merr-Sonn Thermal Detonator (Mk 2),,U,1300,1300,1,F,BioTech Implant (Mk 3),1,F,BlasTech Weapon Mod (Mk 3),,,,,,,18
+,Merr-Sonn Thermal Detonator (Mk 3),,R,2250,5300,1,C,Merr-Sonn Thermal Detonator (Mk 3) Prototype,1,C,Loronar Power Cell (Mk 5),1,C,BAW Armor Mod (Mk 2),,,,33
+,Merr-Sonn Thermal Detonator (Mk 3) Prototype,,R,0,0,5,F,Merr-Sonn Thermal Detonator (Mk 3) Prototype Salvage,,,,,,,,,,n/a
+,Merr-Sonn Thermal Detonator (Mk 4),,R,2800,8150,1,C,Merr-Sonn Thermal Detonator (Mk 4) Prototype,1,C,Chedak Comlink (Mk 1),1,F,TaggeCo Holo Lens (Mk 2),,,,44
+,Merr-Sonn Thermal Detonator (Mk 4) Prototype,,R,3200,3200,5,F,Merr-Sonn Thermal Detonator (Mk 4) Prototype Salvage,,,,,,,,,,n/a
+,Merr-Sonn Thermal Detonator (Mk 5),,E,4600,32450,1,C,Merr-Sonn Thermal Detonator (Mk 5) Prototype,1,C,Carbanti Sensor Array (Mk 3),1,C,Sorosuub Keypad (Mk 3),,,,80
+,Merr-Sonn Thermal Detonator (Mk 5) Prototype,,E,13250,13250,50,F,Merr-Sonn Thermal Detonator (Mk 5) Prototype Salvage,,,,,,,,,,n/a
+,Merr-Sonn Thermal Detonator (Mk 6),,E,,0,,,,,,,,,,,,,83
+,Neuro-Saav Electrobinoculars (Mk 2),,C,1100,1100,1,F,Neuro-Saav Electrobinoculars (Mk 2) Prototype,1,F,CEC Fusion Furnace (Mk 1),1,F,BAW Armor Mod (Mk 1),,,,10
+,Neuro-Saav Electrobinoculars (Mk 4),,U,1400,1400,1,F,Merr-Sonn Shield Generator (Mk 1),1,F,A/KT Stun Gun (Mk 1),1,F,CEC Fusion Furnace (Mk 1),,,,16
+,Neuro-Saav Electrobinoculars (Mk 5),,R,2200,2200,5,F,Neuro-Saav Electrobinoculars (Mk 5) Salvage,,,,,,,,,,24
+,Neuro-Saav Electrobinoculars (Mk 6),,R,2800,8200,1,C,Neuro-Saav Electrobinoculars (Mk 6) Prototype,2,C,Neuro-Saav Electrobinoculars (Mk 5),,,,,,,44
+,Neuro-Saav Electrobinoculars (Mk 6) Prototype,,R,3200,3200,5,F,Neuro-Saav Electrobinoculars (Mk 6) Prototype Salvage,,,,,,,,,,n/a
+,Neuro-Saav Electrobinoculars (Mk 7),,E,2950,13550,2,C,Merr-Sonn Thermal Detonator (Mk 3),,,,,,,,,,51
+,Neuro-Saav Electrobinoculars (Mk 8),,E,,0,,,,,,,,,,,,,82
+,Neuro-Saav Electrobinoculars (Mk 9),,E,,0,,,,,,,,,,,,,81
+,Neuro-Saav Electrobinoculars (Mk 10),,E,,0,,,,,,,,,,,,,82
+,Nubian Design Tech (Mk 1),,U,1100,1100,1,F,Nubian Design Tech (Mk 1) Prototype,1,F,CEC Fusion Furnace (Mk 1),1,F,Arakyd Droid Caller (Mk 1),,,,10
+,Nubian Design Tech (Mk 2),,U,1550,1550,1,F,Merr-Sonn Shield Generator (Mk 1),1,F,BlasTech Weapon Mod (Mk 1),,,,,,,19
+,Nubian Design Tech (Mk 3),,R,2400,4450,1,C,BAW Armor Mod (Mk 5),1,F,Chiewab Hypo Syringe (Mk 2),1,F,Czerka Stun Cuffs (Mk 1),,,,36
+,Nubian Design Tech (Mk 4),,R,2350,2350,1,F,BlasTech Weapon Mod (Mk 3),1,F,Sienar Holo Projector (Mk 1),1,F,Neuro-Saav Electrobinoculars (Mk 3),,,,35
+,Nubian Design Tech (Mk 5),,E,3450,22950,1,C,Nubian Design Tech (Mk 5) Prototype,1,C,A/KT Stun Gun (Mk 4),1,C,SoroSuub Keypad (Mk 4),1,F,BlasTech Weapon Mod (Mk 3),53
+,Nubian Design Tech (Mk 5) Prototype,,E,6650,6650,20,F,Nubian Design Tech (Mk 5) Prototype Salvage,,,,,,,,,,n/a
+,Nubian Design Tech (Mk 6),,E,4350,40450,2,C,Fabritech Data Pad (Mk 8),,,,,,,,,,79
+,Nubian Design Tech (Mk 7),,L,,0,,,,,,,,,,,,,87
+,Nubian Security Scanner (Mk 2),,C,1050,1050,1,F,Nubian Security Scanner (Mk 2) Prototype,1,F,Loronar Power Cell (Mk 1),1,F,Neuro-Saav Electrobinoculars (Mk 1),,,,9
+,Nubian Security Scanner (Mk 3),,U,1500,1500,1,F,Loronar Power Cell (Mk 3),1,F,Arakyd Droid Caller (Mk 1),1,F,Czerka Stun Cuffs (Mk 1),,,,18
+,Nubian Security Scanner (Mk 4),,R,2450,7350,1,C,BAW Armor Mod (Mk 5),1,C,Nubian Security Scanner (Mk 4) Prototype,1,F,BlasTech Weapon Mod (Mk 2),,,,37
+,Nubian Security Scanner (Mk 4) Prototype,,R,2850,2850,5,F,Nubian Security Scanner (Mk 4) Prototype Salvage,,,,,,,,,,n/a
+,Nubian Security Scanner (Mk 5),,E,3350,18450,1,C,Nubian Security Scanner (Mk 5) Prototype,1,C,SoroSuub Keypad (Mk 5),1,C,Loronar Power Cell (Mk 6),1,F,Chiewab Hypo Syringe (Mk 2),51
+,Nubian Security Scanner (Mk 5) Prototype,,E,6550,6550,5,F,Nubian Security Scanner (Mk 5) Prototype Salvage,,,,,,,,,,n/a
+,Nubian Security Scanner (Mk 6),,E,3550,18200,1,C,SoroSuub Keypad (Mk 4),1,C,Merr-Sonn Thermal Detonator (Mk 2),1,C,Nubian Security Scanner (Mk 6) Prototype,,,,59
+,Nubian Security Scanner (Mk 6) Prototype,,E,6950,6950,20,F,Nubian Security Scanner (Mk 6) Prototype Salvage,,,,,,,,,,n/a
+,Nubian Security Scanner (Mk 7),,E,4250,51850,2,C,TaggeCo Holo Lens (Mk 8),,,,,,,,,,77
+,Sienar Holo Projector (Mk 2),,R,2550,7300,1,C,Sienar Holo Projector (Mk 2) Prototype,2,C,Arakyd Droid Caller (Mk 3),1,F,Czerka Stun Cuffs (Mk 1),,,,35
+,Sienar Holo Projector (Mk 2) Prototype,,R,2750,2750,5,F,Sienar Holo Projector (Mk 2) Prototype Salvage,,,,,,,,,,n/a
+,Sienar Holo Projector (Mk 3),,E,6350,6350,20,F,Sienar Holo Projector (Mk 3) Salvage,,,,,,,,,,47
+,Sienar Holo Projector (Mk 4),,E,,0,,,,,,,,,,,,,83
+,SoroSuub Keypad (Mk 2),,U,1100,1100,1,F,SoroSuub Keypad (Mk 2) Prototype,1,F,Chiewab Hypo Syringe (Mk 2),1,F,BAW Armor Mod (Mk 1),,,,10
+,SoroSuub Keypad (Mk 3),,U,1350,1350,1,F,Fabritech Data Pad (Mk 2),1,F,BAW Armor Mod (Mk 3),,,,,,,19
+,SoroSuub Keypad (Mk 4),,E,6400,6400,20,F,SoroSuub Keypad (Mk 4) Salvage,,,,,,,,,,48
+,SoroSuub Keypad (Mk 5),,E,6450,6450,20,F,SoroSuub Keypad (Mk 5) Salvage,,,,,,,,,,49
+,SoroSuub Keypad (Mk 6),,L,,0,,,,,,,,,,,,,84
+,TaggeCo Holo Lens (Mk 3),,U,1300,1300,1,F,TaggeCo Holo Lens (Mk 3) Prototype,1,F,TaggeCo Holo Lens (Mk 1),2,F,BAW Armor Mod (Mk 1),,,,10
+,TaggeCo Holo Lens (Mk 4),,R,2200,2200,5,F,TaggeCo Holo Lens (Mk 4) Salvage,,,,,,,,,,24
+,TaggeCo Holo Lens (Mk 5),,R,2400,5000,1,C,TaggeCo Holo Lens (Mk 5) Prototype,1,F,CEC Fusion Furnace (Mk 2),1,F,BlasTech Weapon Mod (Mk 2),1,F,Fabritech Data Pad (Mk 2),32
+,TaggeCo Holo Lens (Mk 5) Prototype,,R,2600,2600,5,F,TaggeCo Holo Lens (Mk 5) Prototype Salvage,,,,,,,,,,n/a
+,TaggeCo Holo Lens (Mk 6),,R,2700,10000,1,C,Neuro-Saav Electrobinoculars (Mk 5),1,C,TaggeCo Holo Lens (Mk 6) Prototype,1,C,BAW Armor Mod (Mk 4),,,,42
+,TaggeCo Holo Lens (Mk 6) Prototype,,R,3100,3100,5,F,TaggeCo Holo Lens (Mk 6) Prototype Salvage,,,,,,,,,,n/a
+,TaggeCo Holo Lens (Mk 7),,E,3600,13850,1,C,Fabritech Data Pad (Mk 4),1,C,Sienar Holo Projector (Mk 3),,,,,,,64
+,TaggeCo Holo Lens (Mk 8),,E,3500,23800,2,C,Fabritech Data Pad (Mk 7),,,,,,,,,,62
+,TaggeCo Holo Lens (Mk 9),,E,,0,,,,,,,,,,,,,84
+,TaggeCo Holo Lens (Mk 10),,E,,0,,,,,,,,,,,,,81
+,Zaltin Bacta Gel (Mk 1),,R,2750,4750,1,C,Zaltin Bacta Gel (Mk 1) Prototype,1,C,Loronar Power Cell (Mk 5),1,F,TaggeCo Holo Lens (Mk 2),,,,43
+,Zaltin Bacta Gel (Mk 1) Prototype,,R,0,0,5,F,Zaltin Bacta Gel (Mk 1) Prototype Salvage,,,,,,,,,,n/a
+,Zaltin Bacta Gel (Mk 2),,E,3600,13400,1,C,Zaltin Bacta Gel (Mk 2) Prototype,1,C,Merr-Sonn Thermal Detonator (Mk 2),1,C,Nubian Security Scanner (Mk 3),,,,60
+,Zaltin Bacta Gel (Mk 2) Prototype,,E,7000,7000,20,F,Zaltin Bacta Gel (Mk 2) Prototype Salvage,,,,,,,,,,n/a
+,Zaltin Bacta Gel (Mk 3),,E,,0,,,,,,,,,,,,,83
+,Zaltin Bacta Gel (Mk 4),,E,,0,,,,,,,,,,,,,87
