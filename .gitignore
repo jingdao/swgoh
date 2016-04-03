@@ -1,0 +1,8 @@
+pdf
+gear
+simulator/data
+*.html
+*.txt
+*.db
+*.pyc
+!pdf/add_border.sh
