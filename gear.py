@@ -89,8 +89,9 @@ f.readline()
 l=f.readline().split(',')
 i=2
 while i<len(l)-1 and l[i]:
-	hero_names.append(l[i])
-	heroes[l[i]] = []
+	ll = l[i].replace('"','').replace("'","").replace(" ","-")
+	hero_names.append(ll)
+	heroes[ll] = []
 	i+=2
 
 for level in range(maxGearLevel):
@@ -138,12 +139,25 @@ def printHeroGear(hr,targetLevel=9):
 		s += '\n'
 	return s
 
+def getAggregateGearCount(minLevel=0,maxLevel=9):
+	res=[]
+	for hr in heroes:
+		num={}
+		for level in range(minLevel,maxLevel):
+			ct = getGearCount(heroes[hr][level])
+			for c in ct:
+				if c in num:
+					num[c] += ct[c]
+				else:
+					num[c] = ct[c]
+		res.append([hr,num['C'],num['U'],num['R'],num['E']])
+	return res
 def getTex(hr,targetLevel=9):
 	s = "\\documentclass[twoside,12pt]{article}\n"+ \
 		"\\usepackage{graphicx}\n"+ \
 		"\\newcommand{\\imsize}{0.1\\linewidth}\n"+ \
 		"\\begin{document}\n" + \
-		"\\title{"+hr.replace('"','')+"}\n" + \
+		"\\title{"+hr+"}\n" + \
 		"\\maketitle\n"
 	aggregate = blankCost()
 	gearColor = {'C':'GRAY','U':'GREEN','R':'BLUE','E':'PURPLE'}
@@ -169,7 +183,6 @@ def getTex(hr,targetLevel=9):
 	s += '\\end{document}\n'
 	return s
 
-
 def getDemand(targetLevel=9):
 	demand={}
 	for h in heroes:
@@ -186,28 +199,43 @@ def getDemand(targetLevel=9):
 			for k in aggregate[c]:
 				if k in demand:
 					demand[k]['freq'] += aggregate[c][k]
-					demand[k]['usage'] += 1
+					demand[k]['usage'].append((h,aggregate[c][k]))
 				else:
-					demand[k] = {'freq':aggregate[c][k],'usage':1}
+					demand[k] = {'freq':aggregate[c][k],'usage':[(h,aggregate[c][k])]}
 	return demand
 
 if __name__=="__main__":
 	l = len(sys.argv)
-	if l == 3:
+	if l == 3: #hero gear requirement up to target level
 		print printHeroGear(sys.argv[1],int(sys.argv[2]))
 	elif l == 2:
-		if sys.argv[1]=='-h':
+		if sys.argv[1]=='-h': #list of hero names
 			for h in hero_names:
 				print h
-		elif sys.argv[1]=='-g':
+		elif sys.argv[1]=='-g': #list of gear names
 			for g in proper_names:
 				print g
-		elif sys.argv[1]=='-p':
+		elif sys.argv[1]=='-p': #write to PDF
 			for h in hero_names:
-				f=open('pdf/'+h.replace(' ','_').replace('"','').replace("'",'')+'.tex','w')
+				f=open('pdf/'+h+'.tex','w')
 				f.write(getTex(h))
 				f.close()
-		else:
+		elif sys.argv[1]=='-d': #demand for gear (frequency,usage)
+			demand = getDemand()
+			ls = []
+			for d in demand:
+				ls.append([d,demand[d]['freq'],demand[d]['usage']])
+			print 'FREQUENCY'
+			for d in sorted(ls,key=lambda l:l[1],reverse=True):
+				print "%-60s %1s %4d %4d" % (d[0],rarity[d[0]][0],d[1],len(d[2]))
+			print '\nUSAGE'
+			for d in sorted(ls,key=lambda l:len(l[2]),reverse=True):
+				print "%-60s %1s %4d %4d" % (d[0],rarity[d[0]][0],d[1],len(d[2]))
+		elif sys.argv[1]=='-n': #gear count
+			ls = getAggregateGearCount(6,9)
+			for l in sorted(ls,key=lambda l:l[4],reverse=False):
+				print "%-30s %4d %4d %4d %4d %4d" % (l[0],l[1],l[2],l[3],l[4],l[1]+l[2]+l[3]+l[4])
+		else: #hero gear requirement (smart matching)
 			hr = sys.argv[1]
 			if not hr in heroes:
 				for h in heroes:
@@ -215,18 +243,26 @@ if __name__=="__main__":
 						hr = h
 						break
 			print printHeroGear(hr)
-	else:
+	else: #write demand to PDF
+		outputfile='pdf/demand.tex'
+		f=open(outputfile,'w')
+		f.write("\\documentclass[twoside,12pt]{article}\n"+ \
+			"\\usepackage{graphicx}\n"+ \
+			"\\newcommand{\\imsize}{0.1\\linewidth}\n"+ \
+			"\\begin{document}\n")
 		demand = getDemand()
 		ls = []
 		for d in demand:
 			ls.append([d,demand[d]['freq'],demand[d]['usage']])
-		print 'FREQUENCY'
 		for d in sorted(ls,key=lambda l:l[1],reverse=True):
-			print "%-60s %1s %4d %4d" % (d[0],rarity[d[0]][0],d[1],d[2])
-		print '\nUSAGE'
-		for d in sorted(ls,key=lambda l:l[2],reverse=True):
-			print "%-60s %1s %4d %4d" % (d[0],rarity[d[0]][0],d[1],d[2])
-
+			p = proper_names[rarity[d[0]][1]]
+			f.write('\\section{%s (%d,%d)}\n' % (p,d[1],len(d[2])))
+			f.write('\\includegraphics[width=\\imsize]{images/'+p+'}\n\n')
+			for h in sorted(d[2],key=lambda l:l[1],reverse=True):
+				f.write(h[0]+' '+str(h[1])+'\n')
+		f.write("\\end{document}\n")
+		f.close()
+		print 'Wrote to '+outputfile
 					
 
 
