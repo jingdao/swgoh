@@ -8,9 +8,11 @@ typedef struct {
 	float sp_crit;
 	float potency;
 	float tenacity;
+	int numActiveAbility;
 	char* ability[5];
 	float min_damage[5];
 	float max_damage[5];
+	int cooldown[5];
 } Hero;
 extern Hero* ROSTER[77];
 extern Hero AAYLA_SECURA;

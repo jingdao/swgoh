@@ -1,9 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+#include <math.h>
 #include <stdbool.h>
 #include <string.h>
-#include "hero.h"
+#include "combat.h"
 #define RED "\033[0;31m"
 #define GREEN "\033[0;32m"
 #define ORANGE "\033[0;33m"
@@ -16,25 +17,32 @@
 #define NORMAL "\033[0m"
 #define ROSTER_SIZE sizeof(ROSTER)/sizeof(Hero*)
 
-typedef struct {
-	Hero* hero;
-	float current_hp;
-	int turn_meter;
-	int speed;
-	int id;
-} Toon;
-
 void displayHero(Toon* toons,int n) {
 	for (int i=0;i<n;i++)
 		printf("%-11.11s ",toons[i].hero->name);
 	printf("\n");
 	for (int i=0;i<n;i++) {
-		if (toons[i].current_hp <= 0)
-			printf("%s%5d/%5d%s ",WHITE,0,(int)toons[i].hero->hp,NORMAL);
-		else if (toons[i].current_hp >= toons[i].hero->hp / 2)
-			printf("%s%5d/%5d%s ",GREEN,(int)toons[i].current_hp,(int)toons[i].hero->hp,NORMAL);
-		else
-			printf("%s%5d/%5d%s ",RED,(int)toons[i].current_hp,(int)toons[i].hero->hp,NORMAL);
+		char* color = GREEN;
+		if (toons[i].current_hp < toons[i].hero->hp/4)
+			color = RED;
+		else if (toons[i].current_hp < toons[i].hero->hp/2)
+			color = YELLOW;
+		printf("%s",color);
+		float j=0;
+		for (int k=0;k<11;k++) {
+			if (toons[i].current_hp >= j)
+				printf("=");
+			else
+				printf(" ");
+			j+=toons[i].hero->hp/11;
+		}
+		printf(" ");
+//		if (toons[i].current_hp <= 0)
+//			printf("%s%5d/%5d%s ",WHITE,0,(int)toons[i].hero->hp,NORMAL);
+//		else if (toons[i].current_hp >= toons[i].hero->hp / 2)
+//			printf("%s%5d/%5d%s ",GREEN,(int)toons[i].current_hp,(int)toons[i].hero->hp,NORMAL);
+//		else
+//			printf("%s%5d/%5d%s ",RED,(int)toons[i].current_hp,(int)toons[i].hero->hp,NORMAL);
 	}
 	printf("\n");
 	printf(CYAN);
@@ -76,15 +84,18 @@ void initializeTeam(Toon* my_team,Toon* enemy_team,int n) {
 		my_team[i].current_hp = my_team[i].hero->hp;
 		my_team[i].speed = my_team[i].hero->speed;
 		my_team[i].turn_meter = 0;
+		my_team[i].dodge_chance = 5;
+		memset(my_team[i].cooldown,0,5*sizeof(int));
 		my_team[i].id = i;
 	}
 	for (int i=0;i<n;i++) {
 		enemy_team[i].current_hp = enemy_team[i].hero->hp;
 		enemy_team[i].speed = enemy_team[i].hero->speed;
 		enemy_team[i].turn_meter = 0;
+		my_team[i].dodge_chance = 5;
+		memset(enemy_team[i].cooldown,0,5*sizeof(int));
 		enemy_team[i].id = i + n;
 	}
-
 }
 
 void generateUnitList(Toon** units,Toon* my_team,Toon* enemy_team,int* my_team_size,int* enemy_team_size) {
@@ -98,6 +109,7 @@ void generateUnitList(Toon** units,Toon* my_team,Toon* enemy_team,int* my_team_s
 			int j = (*my_team_size)++;
 			units[j] = t;
 		} else {
+			printf("%s fainted\n",my_team[i].hero->name);
 			memmove(my_team+i,my_team+i+1,sizeof(Toon)*(m-1-i));
 			i--;
 			m--;
@@ -109,6 +121,7 @@ void generateUnitList(Toon** units,Toon* my_team,Toon* enemy_team,int* my_team_s
 			int j = *my_team_size + (*enemy_team_size)++;
 			units[j] = t;
 		} else {
+			printf("%s fainted\n",enemy_team[i].hero->name);
 			memmove(enemy_team+i,enemy_team+i+1,sizeof(Toon)*(n-1-i));
 			i--;
 			n--;
@@ -149,12 +162,41 @@ int getTurnOrder(Toon** units,int n) {
 	for (int i=n-1;i>=0;i--)
 		if (queue[i]->turn_meter > 1000)
 			turnOrder[l++] = queue[i]->id;
-	return turnOrder[--l];
+	int pid = turnOrder[--l];
+		for (int i=0;i<n;i++)
+			if (units[i]->id == pid)
+				return i;
+}
+
+void getAction(Toon* toon,Toon* ally, int numAlly, Toon* opponent, int numOpponent) {
+	char buffer[256];
+	char* c = buffer;
+	c += sprintf(c,"%s: ",toon->hero->name);
+	for (int i=0;i<toon->hero->numActiveAbility;i++)
+		c += sprintf(c,"%s(%d) ",toon->hero->ability[i],toon->cooldown[i]);
+	printf("%s>>>",buffer);
+	gets(buffer);
+	int option = atoi(buffer);
+	if (option<0 || option>=toon->hero->numActiveAbility)
+		option=0;
+	if (option==0) {
+		printf(">>");
+		gets(buffer);
+		int target = atoi(buffer);
+		if (target<0 || target>=numOpponent)
+			target = 0;
+		attack(toon,opponent + target);
+	}
+}
+
+void getAIAction(Toon* toon,Toon* ally, int numAlly, Toon* opponent, int numOpponent) {
+	int target = rand() % numOpponent;
+	attack(toon,opponent + target);
 }
 
 int main(int argc,char* argv[]) {
-	srand(time(NULL));
-//	srand(0);
+//	srand(time(NULL));
+	srand(0);
 	Toon my_team[5];
 	Toon enemy_team[5];
 	Toon* units[10];
@@ -163,12 +205,19 @@ int main(int argc,char* argv[]) {
 	int my_team_size = 5, enemy_team_size = 5;
 	generateUnitList(units,my_team,enemy_team,&my_team_size,&enemy_team_size);
 
-	for (int i=0;i<10;i++) {
+	while (true) {
 		int turn = getTurnOrder(units,my_team_size+enemy_team_size);
-//		displayHero(my_team,5);
-//		displayHero(enemy_team,5);
+		if (turn < my_team_size) {
+			displayHero(enemy_team,enemy_team_size);
+			displayHero(my_team,my_team_size);
+			getAction(units[turn],my_team,my_team_size,enemy_team,enemy_team_size);
+		} else {
+			getAIAction(units[turn],enemy_team,enemy_team_size,my_team,my_team_size);
+		}
 		units[turn]->turn_meter -= 1000;
-		printf("%s %d\n",units[turn]->hero->name,units[turn]->speed);
+		generateUnitList(units,my_team,enemy_team,&my_team_size,&enemy_team_size);
+		if (!my_team_size || !enemy_team_size)
+			break;
 	}
 
 }

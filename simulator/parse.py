@@ -16,6 +16,7 @@ for mm in m:
 		os.system('wget -nc -O data/'+name+".data http://swgoh.gg"+mm+"80/")
 	g = open('data/'+name+'.data','r')
 	data={}
+	data['numActiveAbility']=0
 	abilities=[]
 	while True:
 		s = g.readline()
@@ -27,14 +28,20 @@ for mm in m:
 				if m:
 					data[a]=m.group(1)
 		if 'src' in s:
-			m = re.search('ability.*?title="(.*?)"',s)
+			m = re.search('ability(.*?)title="(.*?)"',s)
 			if m:
-				abilities.append(m.group(1))
+				abilities.append(m.group(2))
+				if not 'passive' in m.group(1):
+					data['numActiveAbility'] += 1
 		if 'strong' in s:
 			m = re.search('(\d*) - (\d*)',s)
 			if m:
 				abilities.append(m.group(1))
 				abilities.append(m.group(2))
+		if 'cooldown' in s:
+			m = re.search('(\d) turn cooldown',s)
+			if m:
+				abilities.append(m.group(1))
 	data['abilities'] = abilities
 	heroes[name]=data
 	g.close()
@@ -62,9 +69,11 @@ typedef struct {
 	float sp_crit;
 	float potency;
 	float tenacity;
+	int numActiveAbility;
 	char* ability[5];
 	float min_damage[5];
 	float max_damage[5];
+	int cooldown[5];
 } Hero;
 """
 outheader.write(typedef)
@@ -80,23 +89,29 @@ for h in sorted(heroes.keys()):
 			s += str(0.01*int(val[:-1]))+','
 		else:
 			s += val + ','
+	s += str(heroes[h]['numActiveAbility'])+','
 	ability=[""]*5
 	min_damage=["0"]*5
 	max_damage=["0"]*5
+	cooldown=["0"]*5
 	index=-1
-	isMin=True
+	mode=0
 	for i in range(len(heroes[h]['abilities'])):
 		a = heroes[h]['abilities'][i]
 		if a.isdigit():
-			if isMin:
+			if mode==0:
+				cooldown[index]=a
+				mode=1
+			elif mode == 1:
 				min_damage[index]=a
-				isMin=False
-			else:
+				mode=2
+			elif mode == 2:
 				max_damage[index]=a
-				isMin=True
+				mode=0
 		else:
 			index += 1
 			ability[index] = a.replace("&#39;","")
+			mode = 1 if index==0 else 0
 	s += '{'
 	for i in range(4):
 		s += '"'+ ability[i] + '",'
@@ -106,7 +121,10 @@ for h in sorted(heroes.keys()):
 	s += min_damage[4]+'},{'
 	for i in range(4):
 		s += max_damage[i] + ','
-	s += max_damage[4]+'}};\n'
+	s += max_damage[4]+'},{'
+	for i in range(4):
+		s += cooldown[i] + ','
+	s += cooldown[4]+'}};\n'
 	outfile.write(s)
 s="Hero* ROSTER["+str(len(heroes))+"] = {"
 for h in sorted(heroes.keys()):
